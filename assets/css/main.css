@@ -1652,7 +1652,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1791,11 +1791,11 @@
 		}
 
 	section.wrapper, article.wrapper {
-		padding: 2em 0 4em 0;
+		padding: 2em 0 1em 0;
 	}
 
 		section.wrapper header, article.wrapper header {
-			margin-bottom: 4em;
+			margin-bottom: 1em;
 		}
 
 			section.wrapper header h2, article.wrapper header h2 {
