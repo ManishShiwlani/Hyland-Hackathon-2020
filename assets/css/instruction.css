@@ -2239,6 +2239,10 @@
 
 
 		}
+		.image.avatar {
+            padding: 0 40%;
+
+		}
 
 		.image.right {
 			float: right;
@@ -2473,6 +2477,7 @@
 			color: #555;
 			font-size: 0.9em;
 			font-weight: 600;
+			padding: 1em 0;
 
 		}
 
@@ -2489,7 +2494,7 @@
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #dbdbdb;
+				border: solid 1.5px #dbdbdb;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -3171,12 +3176,12 @@
 
 		}
 	.fa {
-  padding: 7px;
-  font-size: 30px;
+  padding: 5px;
+  font-size: 20px;
   width: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 10px 4px;
+  margin: 5px 4px;
   border-radius: 50%;
 }
 
