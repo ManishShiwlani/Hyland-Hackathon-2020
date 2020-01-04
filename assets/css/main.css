@@ -2231,6 +2231,7 @@
 
 		.image.round img {
 			border-radius: 100%;
+			background-color: black;
 		}
 
 		.image.left {
@@ -2930,14 +2931,15 @@
 /* Banner */
 
 	#banner {
-		padding: 8em 0 9em 0;
-		background-image: url(../../images/banner.jpg);
+		padding: 7em 0 5em 0;
+		background-image: url(../../images/support.jpg);
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
+
 	}
 
 		#banner:before {
@@ -2954,7 +2956,7 @@
 			border-top: 2px solid rgba(255, 255, 255, 0.2);
 			position: relative;
 			z-index: 10005;
-			padding-top: 8em;
+			padding-top: 3em;
 		}
 
 		#banner h1 {
