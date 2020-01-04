@@ -1792,7 +1792,7 @@
 		}
 
 	section.wrapper, article.wrapper {
-		padding: 6em 0;
+		padding: 2em 0 4em 0;
 	}
 
 		section.wrapper header, article.wrapper header {
@@ -2235,14 +2235,15 @@
 
 		.image.left {
 			float: left;
-			padding: 0 1.5em 1em 0;
-			top: 0.25em;
+            padding-right: 20px;
+			
+			
 		}
 
 		.image.right {
 			float: right;
 			padding: 0 0 1em 1.5em;
-			top: 0.25em;
+
 		}
 
 		.image.fit {
@@ -2699,8 +2700,8 @@
 		.subpage #header {
 			background: #6cc091;
 			top: 0;
-			height: 44px;
-			line-height: 44px;
+			height: 55px;
+			line-height: 55px;
 			position: fixed;
 		}
 
@@ -2722,6 +2723,19 @@
 			position: relative;
 		}
 
+#header .logo2 {
+			color: #ffffff;
+			display: inline-block;
+			font-weight: 400;
+			height: inherit;
+			left: 0;
+			line-height: inherit;
+			margin: 0;
+			padding-left: 60px;
+			position: absolute;
+			top: 0;
+			font-size: 1em;
+		}
 		#header .logo {
 			color: #ffffff;
 			display: inline-block;
@@ -2736,7 +2750,7 @@
 			font-size: 1em;
 		}
 
-			#header .logo strong {
+			#header .logo2 strong {
 				color: #ffffff;
 				font-weight: 600;
 			}
