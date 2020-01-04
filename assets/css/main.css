@@ -2230,6 +2230,7 @@
 
 		.image.round img {
 			border-radius: 100%;
+			background-color:black ;
 		}
 
 		.image.left {
