@@ -28,17 +28,23 @@
 				<div class="image round left">
 							<h2>Sign Up to become a Mentor!</h2>		
 								<form action="#" method="post">
-									<div class="field half first">
-									  <label for="name">Please enter your Zip Code:</label><br>
-									  <input id="zip_code" class="zipcode" type="text" value = "" pattern="\d*">
-									</div>
-                                </form>
-								<form action="#" method="post">
-									<div class="field half first">
-									  <label for="nickname">Please enter a Nickname:</label><br>
-									  <input id="nick_name" class="nick-name" type="text" value = "" pattern="\d*">
-									</div>
-                                </form>
+
+						<div class="field half first">
+							<label for="name">Please enter your zip code:</label>
+							<input id="zip_code" class="zipcode" type="text" value = "" pattern="\d*">
+						</div>
+						<form action="">
+							<label>Please create a username: </label>
+							<input type="text" name="username" style="width: 575px">
+						  </form>
+						<div class="wrapper">
+							<div class="container">
+								<h1 id="nameplace"><label>OR use the Username Generator</label></h1>
+
+								<form class="form">
+									<button type="button" id="gen-button">Generate</button>
+								</form>
+
                                 <form method="post" action="parse-textarea.php">
                                     <label for="Cert">Please enter the name of you certifications:</label><br>
                                     <p><textarea name="moreinfo" cols="60" rows="10" required="required">
